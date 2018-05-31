@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* .container{
+    width: 700px;
+    margin: 30px auto;
+} */
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* .alert{
+    display: none;
+} */
+
+.hover-try:hover, .hover-try:hover::-webkit-input-placeholder{
+    background-color: #6a8197;
+    color: rgb(255, 255, 255);
+}
